@@ -1,1 +1,30 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 
+}
+.chaild{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.list{
+    overflow: scroll;
+    max-height: 30vh;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.item{
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: bisque;
+    transform: scale(1.1);
+}
